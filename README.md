@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://moiz-portfolio-six.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=F97316&center=true&vCenter=true&width=620&lines=Building+fast%2C+clean+Next.js+frontends;Shipping+AI+agents+with+the+OpenAI+Agents+SDK;RAG+%7C+FastAPI+%7C+PostgreSQL+%2B+pgvector;Open+to+remote+roles+%E2%80%94+US+%2F+EU" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=F97316&center=true&vCenter=true&width=720&lines=Building+fast%2C+clean+Next.js+frontends;Shipping+AI+agents+with+OpenAI+Agents+SDK;RAG+%7C+FastAPI+%7C+PostgreSQL+%2B+pgvector;Open+to+remote+roles+%E2%80%94+US+%2F+EU" alt="Typing SVG" />
   </a>
 </p>
 
@@ -55,12 +55,8 @@ I'm a **Fullstack Web Developer** with a frontend focus, building production app
 <!-- NOTE: github-readme-stats ka public link aksar rate-limit ho jata hai.
      Apna instance Vercel par deploy karke neeche "github-readme-stats.vercel.app" ko apne domain se replace karein. -->
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=moizahmedshaikh&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=f97316&text_color=c9d1d9" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=moizahmedshaikh&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide=prs,issues,contribs&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=f97316&text_color=c9d1d9" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=moizahmedshaikh&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f97316&text_color=c9d1d9" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=moizahmedshaikh&theme=dark&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="GitHub streak" />
 </p>
 
 ---
