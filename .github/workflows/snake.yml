@@ -1,0 +1,35 @@
+# Is file ko repo mein yahan rakhein: .github/workflows/snake.yml
+name: Generate snake animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # roz raat 12 baje (UTC) update hoga
+  workflow_dispatch:       # Actions tab se manually bhi chala sakte hain
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate snake SVGs (orange theme)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Light mode: halke orange dots, gehra orange snake
+          # Dark mode: GitHub dark background par orange shades, chamakdar orange snake
+          outputs: |
+            dist/github-snake.svg?color_snake=#ea580c&color_dots=#ebedf0,#fed7aa,#fdba74,#fb923c,#ea580c
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#f97316&color_dots=#161b22,#431407,#9a3412,#ea580c,#fb923c
+
+      - name: Push SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
